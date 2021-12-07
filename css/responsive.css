@@ -1,0 +1,195 @@
+
+
+@media (max-width:991px){
+    #menu-bars{
+        display: block;
+    }
+    #close{
+        display: block;
+    }
+    .logo{
+      display: none;
+    }
+    .logo-2 img{
+        display: block;
+    }
+    .nav-3{
+        position: relative;
+    }
+    #navbar {
+        position: absolute;
+        width: 400px;
+        background-color: #212529;
+        top: 0;
+        right: 0;
+        width: 50%;
+        z-index: 9999;
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        padding-bottom: 7%;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    .links {
+        margin-top: 18%;
+    }
+    .navbar-menu a:not(:last-child) {
+        display: block;
+        margin: 30px auto;
+    }
+    .navbar-menu a:not(:last-child):hover:after,
+    .navbar-menu a:hover::after,
+    .navbar-menu a:first-child::after{
+        width: 100%;
+        width: 0%;
+    }
+    .navbar-menu a:hover{
+        color:#ee5253;
+    }
+    #new-arrivals-card {
+        max-width: 30%;
+    }
+    .input-group{
+        max-width: 95%;
+    }
+    .active-navbar{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
+    }
+}
+
+@media (max-width:812px){
+    p {
+        font-size: 12px;
+    }
+    .social-icons i{
+        font-size: .6rem;
+        margin: 0 3px;
+    }
+    .nav-1 p {
+        font-size: 10px;
+    }
+    .category{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .men-tag-img::before{
+        -webkit-clip-path: polygon(0 1%, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 1%, 100% 0, 100% 100%, 0% 100%);
+        padding: 3px 10px;
+    }
+}
+
+@media (max-width:590px){
+    .all-cads{
+        flex-wrap: wrap;
+    }
+    .card {
+        flex-basis: 47%;
+    }
+    #blog-after::after{
+        padding: .15rem .4rem;
+    }
+}
+
+@media (max-width:520px){
+    #new-arrivals-tital div{
+        font-size: 14px !important;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    #navbar {
+        width: 100%;
+    }
+    .nav-2-form,
+    .nav-2-form-select{
+        padding: 0.15rem 2rem 0.15rem 0.3rem !important;
+        margin: 0.3rem 0.1rem !important;
+    }
+    .search-btn {
+        padding: 6.5px 9px !important;
+    }
+    .nav-2{
+        padding: 0 !important;
+    }
+    .logo-2 img{
+        width: 90px;
+    }
+}
+
+@media (max-width:446px){
+    .social-icons i{
+         display: none;
+    }
+    .nav-2{
+        justify-content: center;
+    }
+    .men-star p{
+        font-size: 10px;
+    }
+    .tab-pane{
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #new-arrivals-card {
+        max-width: 40%;
+    }
+    #blog-after::after{
+        padding: .15rem .3rem;
+    }
+    .swiper-button-prev, .swiper-button-next{
+        width: 20px;
+        height: 25px;
+        margin-right: 20px;
+    }
+    .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        left: -5px;
+    }
+}
+
+@media (max-width:352px){
+    #new-arrivals-card {
+        max-width: 80%;
+    }
+    .card {
+        flex-basis: 80%;
+    }
+}
+@media (max-width:320px){
+    .search-bar{
+        flex-wrap: wrap;
+    }
+    .nav-1 p {
+        font-size: 7px;
+    }
+}
+
+
+
+@media (max-width:280px){
+    input::placeholder{
+        font-size: 16px !important;
+    }
+    .navbar-menu a:not(:last-child) {
+        display: block;
+        margin: 20px auto;
+    }
+    #new-arrivals-tital div{
+        font-size: 9px;
+    }
+    #new-arrivals-card {
+        max-width: 95%;
+    }
+    .card {
+        flex-basis: 97%;
+    }
+    #blog-after::after{
+        padding: .15rem .25rem;
+    }
+    .logo-2 img{
+        width: 70px;
+    }
+}
