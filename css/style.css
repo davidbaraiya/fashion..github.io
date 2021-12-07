@@ -91,9 +91,11 @@ p{
 .logo img{
     width: 150px;
 }
+.nav-3 .logo-2{
+    display: none;
+}
 .logo-2 img{
     width: 120px;
-    display: none;
 }
 .search-btn{
     background-color: var(--main-color);
