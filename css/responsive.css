@@ -20,7 +20,7 @@
         position: absolute;
         width: 400px;
         background-color: #212529;
-        top: 0;
+        top: 100%;
         right: 0;
         width: 50%;
         z-index: 9999;
@@ -29,9 +29,6 @@
         padding-bottom: 7%;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    }
-    .links {
-        margin-top: 18%;
     }
     .navbar-menu a:not(:last-child) {
         display: block;

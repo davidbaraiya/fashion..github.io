@@ -49,17 +49,16 @@ p{
     bottom: 0;
     background-color: #fff;
     z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 #status {
     width: 200px;
     height: 200px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    background-image: url(../img/preloader1.gif);
+    background-image: url('../img/preloader1.gif');
     background-repeat: no-repeat;
     background-position: center;
-    margin: -100px 0 0 -100px;
   }
 
 
@@ -102,6 +101,7 @@ p{
     padding: 10px 17px;
     font-size: 1rem;
     color: var(--white-colorr);
+    border-radius: 5px;
 }
  .social-icons i{
     font-size: 1rem;
@@ -126,16 +126,7 @@ p{
     margin-right: 4%;
     cursor: pointer;
 }
-#close{
-    color: #fff;
-    font-size: 25px;
-    position: absolute;
-    right: 8%;
-    top: 1%;
-    cursor: pointer;
-    display: none;
-    margin-bottom: 10px;
-}
+
 /* menu open close end*/
 .navbar-menu a{
     font-size: 1em;

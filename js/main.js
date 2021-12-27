@@ -9,11 +9,19 @@ $(window).on('load', function(){
 
 // menubar 
 $('#menu-bars').click(function(){
-    $('#navbar').addClass('active-navbar');
+    $(this).toggleClass('fa-times');
+    $('#navbar').toggleClass('active-navbar');
 });
-$('#close').click(function(){
+
+$('.links a').click(function(){
     $('#navbar').removeClass('active-navbar');
+    $('#menu-bars').removeClass('fa-times');
 });
+
+// $(window).on('scroll', function(){
+//     $('#navbar').removeClass('active-navbar');
+//     $('#menu-bars').removeClass('fa-times');
+// });
 
   // men slide
   var swiper = new Swiper(".men-swiper", {
